@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #0d0d0d;
+  color: #a39797;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: #ddd7d7;
+}
+
+.header {
+  background: #1a1a1a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ff3dab;
+}
+
+.navbar a {
+  margin: 0 1rem;
+  font-size: 1rem;
+}
+
+.talk-btn {
+  padding: 0.5rem 1rem;
+  background: #ff3dce;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.about {
+  padding: 3rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.about-img img {
+  width: 200px;
+  border-radius: 50%;
+  border: 4px dashed #070707;
+}
+
+.about-text {
+  max-width: 600px;
+}
+
+.skills, .services, .testimonials {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.skills-container, .service-cards, .testimonial-cards {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.skill-card {
+  background: #1a1a1a;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 200px;
+}
+
+.service-card img {
+  width: 100%;
+  max-width: 150px;   /* Set a maximum width */
+  height: auto;       /* Maintain aspect ratio */
+  display: block;
+  margin: 0 auto 10px auto; /* Center the image and add some bottom spacing */
+  border-radius: 10px;
+  object-fit: contain; /* Keeps image scaled nicely */
+}
+
+
+.progress {
+  background: #333;
+  height: 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.bar {
+  height: 100%;
+  background: #b72e82;
+  border-radius: 5px;
+}
+
+
+footer {
+  background: #1a1a1a;
+  padding: 2rem;
+  text-align: center;
+  color: #d624a3;
+}
+
+.footer-columns {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.footer-columns .col {
+  margin: 1
+}
