@@ -8,4 +8,4 @@ I enjoyed styling the portfolio using CSS the most changing the look and feel, a
  If I had more time, I would add interactive features using JavaScript, such as animations, dynamic content etc to make the portfolio more engaging and user-friendly
 
 ## demo video
-https://github.com/Nandanabnair2005/my_portfolio/blob/1067466729f44ab9b43aac30865a06d84693686e/Recording%202025-08-07%20212500.mp4
+https://github.com/user-attachments/assets/d52266df-afb2-4ba7-b43b-124239aac11b
